@@ -1,7 +1,7 @@
 forge "https://forgeapi.puppetlabs.com"
 
 mod 'croddy/make'
-mod 'gentoo/protage'
+mod 'gentoo/portage'
 mod 'jfryman/selinux'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/apt'
