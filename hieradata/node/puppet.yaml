@@ -1,5 +1,5 @@
 ---
 classes:
-  - role_puppetca
+  - puppetmaster::role_puppetca
 profile_puppet::allow_any_crl_auth: true
 profile_puppet::server: true
