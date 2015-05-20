@@ -1,5 +1,12 @@
 ---
 classes:
-  - puppetmaster::role_puppetca
+  - puppetmaster::role_puppetmaster
 profile_puppet::allow_any_crl_auth: true
 profile_puppet::server: true
+profile_puppet::server_external_nodes: ''
+profile_puppet::server_puppetdb_host: puppet.multi-master.vagrant
+profile_puppet::server_reports: 'store, puppetdb'
+profile_puppet::server_storeconfigs_backend: 'puppetdb'
+profile_puppet::runmode: none
+stack_puppetmaster::puppetca: true
+stack_puppetmaster::puppetdb: true
