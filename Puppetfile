@@ -1,5 +1,6 @@
 forge "https://forgeapi.puppetlabs.com"
-
+mod 'attachmentgenie/puppetmaster',
+  :git => "git://github.com:attachmentgenie/attachmentgenie-puppetmaster.git"
 mod 'croddy/make'
 mod 'gentoo/portage'
 mod 'jfryman/selinux'
