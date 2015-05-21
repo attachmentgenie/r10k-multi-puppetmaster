@@ -7,5 +7,6 @@ puppetmaster::profile_puppet::puppetmaster: puppet.multi-master.vagrant
 puppetmaster::profile_puppet::server: true
 puppetmaster::profile_puppet::server_ca: false
 puppetmaster::profile_puppet::server_ca_proxy: "https://puppet.multi-master.vagrant:8140"
+puppetmaster::profile_puppet::server_external_nodes: ''
 puppetmaster::profile_puppet::server_puppetdb_host: puppet.multi-master.vagrant
 puppetmaster::stack_puppetmaster::r10k: true
