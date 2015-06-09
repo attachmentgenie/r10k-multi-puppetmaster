@@ -5,8 +5,8 @@ classes:
 #puppetmaster::profile_foreman_proxy::puppetca: true
 puppetmaster::profile_puppet::server: true
 puppetmaster::profile_puppet::puppetmaster: puppet.multi-master.vagrant
-puppetmaster::profile_puppet::server_foreman: true
-puppetmaster::profile_puppet::server_foreman_url: 'https://puppet.multi-master.vagrant'
+#puppetmaster::profile_puppet::server_foreman: true
+#puppetmaster::profile_puppet::server_foreman_url: 'https://puppet.multi-master.vagrant'
 puppetmaster::profile_puppet::server_puppetdb_host: puppet.multi-master.vagrant
 puppetmaster::profile_puppet::server_reports: 'store, puppetdb'
 #puppetmaster::profile_puppet::server_reports: 'store, foreman'
