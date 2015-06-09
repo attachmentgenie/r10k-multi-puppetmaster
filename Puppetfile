@@ -3,6 +3,7 @@ mod 'attachmentgenie/orchestrate',
   :git => "git://github.com/attachmentgenie/attachmentgenie-orchestrate.git"
 mod 'attachmentgenie/puppetmaster',
   :git => "git://github.com/attachmentgenie/attachmentgenie-puppetmaster.git"
+mod 'attachmentgenie/timezone'
 mod 'croddy/make'
 mod 'gentoo/portage'
 mod 'jfryman/selinux'
