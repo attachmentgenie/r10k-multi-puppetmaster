@@ -1,3 +1,2 @@
 ---
 profile_firewall::ensure: stopped
-profile_puppet::puppetmaster: %{::pp_puppetmaster}
