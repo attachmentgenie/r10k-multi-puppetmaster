@@ -1,7 +1,10 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs/concat', '2.1.0'
-mod 'puppetlabs/firewall', '1.8.0'
-mod 'puppetlabs/ntp', '4.1.2'
-mod 'puppetlabs/stdlib', '4.11.0'
-mod 'theforeman/puppet', '4.3.1'
+mod 'puppetlabs/firewall', '1.8.1'
+mod 'puppetlabs/stdlib', '4.12.0'
+mod 'profiles',
+  :git => 'https://github.com/attachmentgenie/attachmentgenie-profiles'
+mod 'stacks',
+  :git => 'https://github.com/attachmentgenie/attachmentgenie-stacks'
+mod 'roles',
+  :git => 'https://github.com/attachmentgenie/attachmentgenie-roles'
